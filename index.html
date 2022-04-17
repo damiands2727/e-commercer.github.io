@@ -7,19 +7,27 @@
     <title>E commerce</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="banner.css">
 </head>
 <body>
+    <header>
+        <div class="searchbar">
+        <img src="Imagenes/Logo.png" alt="logoAluraGeek">
+        <label for="nombreapellido">Nombre</label>
+        <input name="nombre" type="text" placeholder="¿Qué deseas buscar?" id="nombreapellido" class="cajitas">
+        <input type="button" value="Login"class="cajitas">
+        </div>
 
     <div class="banner">
         <div class="background">
-            <h1>Febrero promocional</h1>
-            <h2>productos seleccionados con 33% de descuento</h2>
+            <h1 class="tituloBanner">Febrero promocional</h1>
+            <h2 class="subtituloBanner">productos seleccionados con 33% de descuento</h2>
 
-            <input type="button" value="Ver Consolas"class="cajitas">
+            <input class="btnVerConsolas" type="button" value="Ver Consolas"class="cajitas">
         </div>
 
     </div>
-
+    </header>
 
 
     <div class="lineaProducto">
@@ -176,7 +184,7 @@
                             <label for="nombreapellido">Nombre</label>
                             <input name="nombre" type="text" id="nombreapellido" class="cajitas">
                             <textarea name="" id="mensaje" cols="50" rows="15" class="cajitas"></textarea>
-                            <input type="submit" onclick="validarDatos()" value="Enviar Mensaje"class="cajitas">
+                            <input type="button" value="Enviar Mensaje"class="cajitas">
                         </form>
                 </div>
             </div>
