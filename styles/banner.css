@@ -5,12 +5,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
 }
 
 .textoBanner{
     position: relative;
     left: 152px;
     top: 150px;
+    width: 1000px;
+    box-sizing: border-box;
 }
 
 
