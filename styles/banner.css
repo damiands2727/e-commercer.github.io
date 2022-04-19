@@ -1,0 +1,53 @@
+.banner{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(https://images.unsplash.com/photo-1527896573815-b7dd74893deb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+    width: 100%;
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textoBanner{
+    position: relative;
+    left: 152px;
+    top: 150px;
+}
+
+
+.tituloBanner{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    position: static;
+    left: 0px;
+    top: 0px;
+}
+
+
+.subtituloBanner{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+color: #FFFFFF;
+margin-top: 16px;
+}
+
+.btnVerConsolas{
+position: static;
+width: 129px;
+height: 51px;
+background: #2A7AE4;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+margin-top: 16px;
+}

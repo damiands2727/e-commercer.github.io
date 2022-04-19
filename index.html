@@ -5,46 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E commerce</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="styles/reset_css.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/banner.css">  <!--im missing the magnifing glass-->
+    <link rel="stylesheet" href="styles/lineaproducto.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/credits.css">
+    <link rel="stylesheet" href="styles/bodyproductos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="searchbar">
-        <img src="Imagenes/Logo.png" alt="logoAluraGeek">
-        <label for="nombreapellido">Nombre</label>
-        <input name="nombre" type="text" placeholder="¿Qué deseas buscar?" id="nombreapellido" class="cajitas">
-        <input type="button" value="Login"class="cajitas">
+    <div class="headerArriba">
+        <div class="logobusqueda">
+            <img class="logoheader" src="Imagenes/Logo.png" alt="logoAluraGeek">
+            <input class="barritabusqueda"  type="text" placeholder="¿Qué deseas buscar?"></input>
         </div>
-
+            <button class="btnlogin" value="login">Login</but>
+    </div>
     <div class="banner">
-        <div class="background">
-            <h1 class="tituloBanner">Febrero promocional</h1>
-            <h2 class="subtituloBanner">productos seleccionados con 33% de descuento</h2>
-
+        <div class="textoBanner">
+            <h1 class="tituloBanner">Alura Geek Promocional</h1>
+            <h2 class="subtituloBanner">Productos seleccionados con 33% de descuento</h2>
             <input class="btnVerConsolas" type="button" value="Ver Consolas"class="cajitas">
         </div>
-
     </div>
     </header>
 
-
+    <div class="bodyproductos">
     <div class="lineaProducto">
+        <div class="lineatop">
         <h2 class="titulolinea">Star Wars</h2>
-        <h3 class="verTodo">Ver todo</h3>
+        <button class="verTodo">Ver todo</button>
+        </div>
         <div class="containercards">
             <div class="cardproducto">
-                <img src="Imagenes/galeria1.png" alt="">
-                <p>producto xyz</p>
-                <p>$ 60,00</p>
-                <a href="#">Ver producto</a>
+                <div class="containerimagenproducto">
+                <img class="imagenproducto" src="" alt="">
+                </div>
+                <p class="par1">producto xyz</p>
+                <p class="par2">$ 60,00</p>
+                <a class="par3" href="#">Ver producto</a>
             </div>
             <div class="cardproducto">
-                <img src="Imagenes/galeria2.png" alt="">
-                <p>producto xyz</p>
-                <p>$ 60,00</p>
-                <a href="#">Ver producto</a>
+                <div class="containerimagenproducto">
+                <img class="imagenproducto" src="" alt="">
+                </div>
+                <p class="par1"> producto xyz</p>
+                <p class="par2">$ 60,00</p>
+                <a class="par3" href="#">Ver producto</a>
             </div>
             <div class="cardproducto">
                 <img src="Imagenes/galeria3.png" alt="">
@@ -161,7 +173,7 @@
             </div>
         </div>
     </div>
-
+    </div>  
 
     <footer>
         <div class="contacto">
@@ -192,7 +204,7 @@
         </div>
 
         <div class="rodapie">
-            <p class="foot">Desarrollado por Damián Stella 2022</p> 
+            <p class="foot">Desarrollado por Damián Stella <br> 2022 </p> 
         </div>
     </footer>
 </body>
